@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.maintenance_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Maintenance_app">
+        <activity android:name=".IMPdetails"></activity>
+        <activity android:name=".Four" />
+        <activity android:name=".Spent" />
+        <activity android:name=".Total_money" />
+        <activity android:name=".add_user2" />
+        <activity android:name=".Two" />
+        <activity android:name=".add_user" />
+        <activity android:name=".one" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
